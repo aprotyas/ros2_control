@@ -27,6 +27,7 @@ namespace hardware_interface
  */
 struct InterfaceInfo
 {
+  InterfaceInfo();
   /**
    * Name of the command interfaces that can be set, e.g. "position", "velocity", etc.
    * Used by joints and GPIOs.

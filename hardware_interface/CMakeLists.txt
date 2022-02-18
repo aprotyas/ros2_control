@@ -22,6 +22,7 @@ add_library(
   src/resource_manager.cpp
   src/sensor.cpp
   src/system.cpp
+  src/hardware_info.cpp
 )
 target_include_directories(
   hardware_interface
